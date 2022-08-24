@@ -1,58 +1,58 @@
 #! /bin/bash
-Import os
-Import random
+import os
+import random
 M1 = 0
-Print ("Please select from an option \n")
-Print ("\n")
-Print ("1) Ala is gay \n")
-Print ("2) Crypted is cool \n")
-Print ("3) Rock Paper Scissors \n")
-Print ("\n")
+print ("Please select from an option \n")
+print ("\n")
+print ("1) Ala is gay \n")
+print ("2) Crypted is cool \n")
+print ("3) Rock Paper Scissors \n")
+print ("\n")
 Raw_input(">> ") = M1
 
 If M1 == 1:
-Print ("Confirmed")
-Return 0
+ Print ("Confirmed")
+ Return 0
 
 If M1 == 2:
-Print ("indeed")
-Return 0
+ Print ("indeed")
+ Return 0
 
 If M1 == 3:
 
-Print ("beginning game program")
-CPU = random.choice(Rock, Paper, Scissors)
-Player = 0
-os.system("clear”)
-Print ("Select an option: \n")
-Print ("1) Rock \n")
-Print ("2) Paper \n")
-Print ("3) Scissors \n")
-Print ("\n")
-Raw_input(">> ")= Player
+ Print ("beginning game program")
+ CPU = random.choice(Rock, Paper, Scissors)
+ Player = 0
+ os.system("clear”)
+ print ("Select an option: \n")
+ print ("1) Rock \n")
+ print ("2) Paper \n")
+ print ("3) Scissors \n")
+ print ("\n")
+ Raw_input(">> ")= Player
 
-Print ("Rock! \n")
-os.system("sleep 1")
-Print ("Paper! \n")
-os.system("sleep 1")
-Print ("Scissors! \n")
-os.system("sleep 1")
-Print ("\n")
+ print ("Rock! \n")
+ os.system("sleep 1")
+ print ("Paper! \n")
+ os.system("sleep 1")
+ print ("Scissors! \n")
+ os.system("sleep 1")
+ print ("\n")
 
-If Player == "Paper" && CPU == "Rock":
-Print ("You win CPU picked: “ + CPU + ".")
-If Player == "Paper" && CPU == "Scissors":
-Print ("You lose CPU picked: “ + CPU + ".")
-If Player = CPU:
-Print ("It is a draw")
-If Player == "Rock" && CPU == "Paper":
-Print ("You lose CPU picked: “ + CPU + ".")
-If Player == "Rock" && CPU == "Scissors":
-Print ("You win CPU picked: “ + CPU + ".")
-If Player == "Scissors" && CPU == "Rock":
-Print ("You lose CPU picked: “ + CPU + ".")
-If Player == "Scissors" && CPU == “Paper":
-Print ("You win CPU picked: “ + CPU + ".")
+  If Player == "Paper" && CPU == "Rock":
+   print ("You win CPU picked: “ + CPU + ".")
+  If Player == "Paper" && CPU == "Scissors":
+   print ("You lose CPU picked: “ + CPU + ".")
+  If Player = CPU:
+   print ("It is a draw")
+  If Player == "Rock" && CPU == "Paper":
+   print ("You lose CPU picked: “ + CPU + ".")
+  If Player == "Rock" && CPU == "Scissors":
+   print ("You win CPU picked: “ + CPU + ".")
+  If Player == "Scissors" && CPU == "Rock":
+   print ("You lose CPU picked: “ + CPU + ".")
+  If Player == "Scissors" && CPU == “Paper":
+   print ("You win CPU picked: “ + CPU + ".")
 
-os.system("sleep 3")
-Break
+  os.system("sleep 3")
+  break
